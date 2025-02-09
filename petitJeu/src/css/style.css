@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#gameCanvas {
+    width: 50%;
+    max-width: 800px;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+#game-info {
+    width: 35%;
+    min-width: 280px;
+    height: fit-content;
+    padding: 20px;
+    font-size: 16px;
+}
+
+#position-info, #level-info, #solde-info {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+#rules {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#rules h3 {
+    margin-top: 0;
+    color: #ffd700;
+    background-color: transparent;
+    font-size: 1.2em;
+}
+
+#rules ul {
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+#rules li {
+    margin: 8px 0;
+    line-height: 1.4;
+    background-color: transparent;
+    font-size: 0.9em;
+}
+
+.signature-auteur {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #7c7c7c;
+}
+
+@media screen and (max-width: 1024px) {
+    .game-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    #game-info {
+        width: 100%;
+        max-width: 600px;
+        order: 2;
+    }
+
+    #gameCanvas {
+        width: 100%;
+        max-width: 600px;
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .game-container {
+        padding: 5px;
+    }
+
+    #game-info {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    #gameCanvas {
+        max-width: 500px;
+    }
+
+    #rules li {
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+
+    .game-container {
+        padding: 2px;
+    }
+
+    #game-info {
+        padding: 10px;
+        min-width: unset;
+    }
+
+    #gameCanvas {
+        max-width: 100%;
+    }
+
+    #rules {
+        padding: 10px;
+    }
+}
+

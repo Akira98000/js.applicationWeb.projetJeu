@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akira Santhakumaran</title>
+    <link rel="stylesheet" href="src/css/style.css">
+  </head>
+  <body>
+    <div class="game-container">
+      <div id="game-info">
+        <p id="position-info">Position : </p>
+        <p id="level-info">Niveau : </p>
+        <p id="solde-info">Solde : 0 €</p>
+        <div id="rules">
+          <h3>Règles du jeu :</h3>
+          <ul>
+            <li>Déplacez-vous avec les touches ZQSD ou les flèches directionnel (haut, bas, gauche, droite)</li>
+            <li>Collecté toute les clés pour débloquer la porte de sortie</li>
+            <li>Évité les gardes et leur champ de vision</li>
+            <li>Diriger toi vers la porte de sortie pour passer au niveau suivant</li>
+            <li>Si un agent te repère, le niveau recommence et tu perds 500.000 €. Ces 500.000 € servent à corrompre les agents et recommencer le niveau</li>
+          </ul>
+          <p class="signature-auteur">Akira Santhakumaran <br> Petit jeu réaliser pour le cours Application Web L3 MIAGE</p>
+        </div>
+      </div>
+      <canvas id="gameCanvas" width="800" height="800"></canvas>
+    </div>
+    <script type="module" src="src/js/main.js"></script>
+  </body>
+</html>
+
