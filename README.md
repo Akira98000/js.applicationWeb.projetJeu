@@ -43,7 +43,7 @@ Projet de jeu développé dans le cadre du cours Application Web en L3 MIAGE. Le
 - Champ de vision des agents
 
 ## Liens
-- Lien du site web pour jeter un coup d'oeil: https://akira98000.github.io/js.ApplicationWeb.projetJeu_num1/
+- Lien du site web pour jeter un coup d'oeil: [https://akira98000.github.io/js.ApplicationWeb.projetJeu_num1/](https://akira98000.github.io/js.applicationWeb.projetJeu/)
 
 ## Auteur
 **Akira Santhakumaran**
