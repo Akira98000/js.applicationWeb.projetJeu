@@ -175,7 +175,7 @@ export default class Game {
         this.ctx.translate(x, y);
 
         // TETE
-        this.ctx.fillStyle = "brown";
+        this.ctx.fillStyle = "grey";
         this.ctx.fillRect(0, 0, 100, 100);
 
         // CORPS
@@ -191,7 +191,7 @@ export default class Game {
         this.drawCircleImmediat(70, 30, 5, "black"); 
 
         // RECTANGLE BLANC YEUX
-        this.ctx.fillStyle = "red";
+        this.ctx.fillStyle = "white";
         this.drawCircleImmediat(50, 15, 5,10,"white");
         //this.ctx.fillRect(40, 5, 20, 10); 
 
