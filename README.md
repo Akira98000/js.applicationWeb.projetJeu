@@ -1,7 +1,7 @@
 # Projet Jeu - Application Web L3 MIAGE
 
 ##  Description
-Projet de jeu développé dans le cadre du cours Application Web en L3 MIAGE. Le projet comprend deux jeux :
+Projet de jeu développé dans le cadre du cours Application Web en L3 MIAGE. Le projet comprend deux projets :
 - **Le Petit Jeu** : Un jeu d'infiltration où le joueur doit collecter des clés tout en évitant les agents de sécurité
 - **Le Petit Monstre** : Un monstre crée pendant le cours de CM pour comprendre le fonctionnement du canvas
 
